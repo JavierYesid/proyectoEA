@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<style>
+.container {margin:0px}
+.content {display:flex;flex-direction: column; justify-content: center;align-items: center;}
+p {font-family: 'Poppins', sans-serif;justify-content: center;font-size: 14px;}
+.content-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.div-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    margin: 0px;
+    width: 530px;
+}
+
+.recomendaciones {
+    width: 530px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+.button-questions {
+    background: #3B44F6;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    display: flex;
+    justify-content:center;
+    font-family: 'Poppins', sans-serif;font-size: 16px;
+    width: 350px;
+}
+.alert {
+    display: flex;
+    align-items: center;
+    width: 530px;
+    height: 100px;
+}
+.text-remember {
+    font-size: 12px;
+    width: 500px;
+    margin: 0;
+}
+.div-alert {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+}
+.img-log{
+    display: flex;
+    flex-direction:column-reverse;
+}
+
+
+@media(max-width: 500px) {
+
+    body {
+        display: flex;
+        margin: 0;
+    }
+    .img-header {width: 70%;
+    }
+    .text-message{padding-left: 10px;
+        padding-right: 190px;
+    }
+    .text-name {
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .img-recomendaciones {
+        width: 65%;
+    }
+}
+    
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <img class="img-header" src="img/imagen1.png" alt="imagen1">
+            </div>
+            <div class="content-container">
+                
+                <div class="div-txt">
+                    <p class="text-name";style="font-size: 20px;"><b>Hola Isaac</b></p>
+                    <p class="text-message"> Nos emociona ser parte de tu progreso y que hayamos iniciado esta
+                    relacion<b> Entre Amigos en Alianza con Organización Cardenas.</b> Para
+                    seguir con tu solicitud debes responder a las siguientes preguntas, <b>solo
+                    te tomará de 3 a 5 minutos.</b><br/><br/>
+                    
+                    
+                    A continuación, te dejamos algunas recomedaciones:
+                    </p>
+                </div> 
+                <div class="recomendaciones">  
+                    <img class="img-recomendaciones"  src="img/imagen2.png" alt="imagen2">
+                </div>
+                <div class="div-txt">
+                    <p class="text-message">Haz click en el botón para comenzar</p>
+                </div>
+                <div class="button">
+                    <button class="button-questions">Responder a las preguntas</button>  
+                </div>
+                <div class="div-txt">
+                    <p class="text-message">Un abarzo, <br/><b>Equipo Entre Amigos y Organizacion Cárdenas</b></p>
+                </div>
+                <div class="alert">
+                    <div class="div-alert">
+                        <p class="text-remember">Recuerda que en Entre Amigos en alianza con Organización Cárdenas</p>
+                        <p style=color:#0078AA;font-size:12px;margin:0;><b>no cobramos por la solicitud ni el desembolso de su crédito</b></p>
+                    </div>
+                    <img class="img-logo"  src="img/imagen3.png" alt="imagen3">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
